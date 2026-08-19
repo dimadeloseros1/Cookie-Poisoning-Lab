@@ -1,8 +1,26 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Cookie Poisoning Lab</h1>
+
+    <hr />
+
+    <h3>Current Session</h3>
+
+    <p>
+        <strong>Username:</strong> @ViewBag.Username
+    </p>
+
+    <p>
+        <strong>Role:</strong> @ViewBag.Role
+    </p>
+
+    <hr />
+
+    <p>
+        This application intentionally contains an insecure
+        cookie-based authorization mechanism for educational purposes.
+    </p>
 </div>

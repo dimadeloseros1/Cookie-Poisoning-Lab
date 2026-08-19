@@ -8,6 +8,9 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
+        ViewBag.UserName = Request.Cookies["username"] ?? "Not logged in";
+        ViewBag.role = Request.Cookies["role"] ?? "None";
+
         return View();
     }
 

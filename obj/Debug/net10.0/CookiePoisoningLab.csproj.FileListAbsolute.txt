@@ -95,3 +95,4 @@
 /home/dimad/CookiePoisoningLab/obj/Debug/net10.0/CookiePoisoningLab.pdb
 /home/dimad/CookiePoisoningLab/obj/Debug/net10.0/CookiePoisoningLab.genruntimeconfig.cache
 /home/dimad/CookiePoisoningLab/obj/Debug/net10.0/ref/CookiePoisoningLab.dll
+/home/dimad/CookiePoisoningLab/obj/Debug/net10.0/CookiePoisoningLab.sourcelink.json
