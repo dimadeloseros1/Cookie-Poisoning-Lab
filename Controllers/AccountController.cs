@@ -42,5 +42,13 @@ public class AccountController : Controller
 
         return RedirectToAction("Index", "Home");
     }
-    
+
+    public ActionResult Logout()
+    {
+        Response.Cookies.Delete("username");
+        Response.Cookies.Delete("role");
+
+        return RedirectToAction("Login");
+    }
+
 }
