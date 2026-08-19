@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Admin";
+}
+
+<div class="text-center">
+
+    <h1>Administrator Dashboard</h1>
+
+    <hr />
+
+    <div class="alert alert-danger">
+        <strong>Restricted Area</strong>
+    </div>
+
+    <p>
+        This page should only be accessible to users with the
+        administrator role.
+    </p>
+
+    <p>
+        Current role: <strong>@Context.Request.Cookies["role"]</strong>
+    </p>
+
+</div>
