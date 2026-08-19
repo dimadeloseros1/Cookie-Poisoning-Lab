@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CookiePoisoningLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec99d9edb452f387f1e0cd14fb8b7a848e301cab")]
 [assembly: System.Reflection.AssemblyProductAttribute("CookiePoisoningLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CookiePoisoningLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
